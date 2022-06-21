@@ -50,3 +50,5 @@ function getDetails(url){
             text_details.innerHTML = texto;
         });
 }
+
+document.querySelector('p.teste').style.color ='green';

@@ -37,7 +37,7 @@ function showMovie(dados){
             <div class="overview">
                 <h3>Overview<h3>
                 <p>${overview}<p>
-                <p id="buttonDetails"><button id="details" class"details><a  href="../details.html?iddofilme=${id}">Detalhes</a></button><p>
+                <p id="buttonDetails"><button id="details" class"details><a  href="../pag/details.html?iddofilme=${id}">Detalhes</a></button><p>
             </div>
         `
         main.appendChild(movieIMG);
