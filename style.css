@@ -234,9 +234,11 @@ a:hover{
         height: 15px;
         
     }
+
     #iframe {
         width: 116%;
         margin-top: 15px;
+        margin-left: -8%;
     }
     form {
         margin-left: 45%;
