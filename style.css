@@ -177,17 +177,16 @@ a:hover{
         margin: 0 auto;
         margin-top: 30px;
     }
+    main{
+        margin-left: 0;
+    }
 
     form{
         margin: 0 auto;
     }
 }
 
-@media screen and (min-width:820px) and (max-width:1180px){
-    .header{
-        background-position: 0px -100px;
-    }
-}
+
 
 @media screen and (min-width: 851px) and (max-width: 1000px) {
     
