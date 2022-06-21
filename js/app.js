@@ -26,7 +26,9 @@ function showMovie(dados){
         const {title, poster_path, vote_average, overview, id} = movie;
         let movieIMG = document.createElement('div');
         movieIMG.classList.add('movie');
-        movieIMG.classList.add('col-12');
+        movieIMG.classList.add('col-sm-12');
+        movieIMG.classList.add('col-md-6');
+        movieIMG.classList.add('col-lg-3');
         movieIMG.innerHTML = `
             <img src="${IMG_URL+poster_path}" alt="${title}">
             <div class="movie-info">

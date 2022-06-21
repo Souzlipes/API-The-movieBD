@@ -168,10 +168,19 @@ a:hover{
 
 /*Container - fim*/
 
-@media screen and (max-width:600px){
+@media screen and (max-width:850px){
     .header{
         background-position: 0px -50px;
     } 
+    .movie{
+        max-width: 100%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    form{
+        margin: 0 auto;
+    }
 }
 
 @media screen and (min-width:820px) and (max-width:1180px){
@@ -180,7 +189,7 @@ a:hover{
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 851px) and (max-width: 1000px) {
     
 
     .header{        
